@@ -139,7 +139,79 @@ String resultado = (a==b) ? "verdadeiro" : "false";
    - `>=` verificar se uma variável é MAIOR OU IGUAL a outra.
    - `<` verificar se uma variável é MENOR QUE outra.
    - `<=` verificar se uma variável é MENOR OU IGUAL a outra.
- - **Lógicos**: `&&` Operador Lógico "E"; `||` Operador Lógico "OU"
+ - **Lógicos**:
+   - `&&` Operador Lógico "E";
+   - `||` Operador Lógico "OU".
+
+### Métodos
+
+Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes.
+
+**Critério de nomeação de Métodos**
+ - Deve ser nomeado como verbo;
+ - Seguir o padrão *camelCase* (Todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
+
+**Critério de definição de métodos**
+ - Qual a proposta principal do método?
+ - Qual o tipo de retorno esperado após executar o método?
+```
+Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.
+```
+ - Quais os parâmetros serão necessários para execução do método?
+ - O método possui o risco de apresentar alguma exceção?
+ - Qual a visibilidade do método?
+
+Exemplo de uma classe com dois métodos:
+```
+public class MyClass {
+	
+	public double somar(int num1, int num2){
+		//LOGICA - FINALIDADE DO MÉTODO
+		return ... ;
+	}
+	
+	public void imprimir(String texto){
+		//LOGICA - FINALIDADE DO MÉTODO
+		//AQUI NÃO PRECISA DO RETURN
+		//POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
+	}
+	
+	// throws Exception: indica que o método poderá gerar uma exceção
+	public double dividir(int dividendo, int divisor) throws Exception{
+		//LOGICA - FINALIDADE DO MÉTODO
+		return ... ;
+	}
+}
+```
+
+### Escopo
+
+- Em Java, o escopo de variáveis vai **de acordo com o bloco onde ela foi declarada**;
+- A variável é criada no primeiro acesso à ela, se tornando inacessível após o interpretador sair do bloco de execução ao qual ela pertence;
+- Em uma Classe os atributos (variáveis) são declarados no corpo principal da Classe, sendo portanto acessíveis por todos os métodos da Classe;
+- Caso declare uma variável DENTRO DE UM MÉTODO, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
+
+Três tipos iniciais de escopo:
+- Escopo de Classe: variáveis declaradas no corpo principal da Classe;
+- Escopo de método: variáveis declaradas dentro do corpo de um método;
+- Escopo de fluxo: variáveis declaradas dentro de controles de fluxo (*for* por exemplo);
+
+### Palavras reservadas
+
+São **identificadores de uma linguagem que já possuem uma finalidade específica**, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
+
+A linguagem Java possui 52 palavras reservadas, todas escritas com letra minúscula.
+
+Grupos de classificação das palavras reservadas:
+- Controle de pacotes: **import; package;**
+- Modificadores de acesso: **public; private; protected;**
+- Primitivos: **boolean; byte; char; double; float; int; long; short; void;
+- Modificadores de classes, variáveis ou métodos: **abstract; class; extends; final; implements; interface; native; new; static; strictfp; synchronized; transient; volatile;**
+- Controle de fluxo dentro de um bloco de código: **break; case; continue; default; do; else; for; if; instanceof; return; switch; while;**
+- Tratamento de erros: **assert; catch; finally; throw; throws; try;**
+- Variáveis de referência: **super; this;**
+- Palavras reservadas não utilizadas: **const; goto;**
+- Literais reservados: **null; true; false**.
 
 ##
 Bons estudos!!!
