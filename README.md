@@ -192,9 +192,9 @@ public class MyClass {
 - Caso declare uma variável DENTRO DE UM MÉTODO, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
 
 Três tipos iniciais de escopo:
-- Escopo de Classe: variáveis declaradas no corpo principal da Classe;
-- Escopo de método: variáveis declaradas dentro do corpo de um método;
-- Escopo de fluxo: variáveis declaradas dentro de controles de fluxo (*for* por exemplo);
+- **Escopo de Classe**: variáveis declaradas no corpo principal da Classe;
+- **Escopo de método**: variáveis declaradas dentro do corpo de um método;
+- **Escopo de fluxo**: variáveis declaradas dentro de controles de fluxo (*for* por exemplo);
 
 ### Palavras reservadas
 
@@ -205,7 +205,7 @@ A linguagem Java possui 52 palavras reservadas, todas escritas com letra minúsc
 Grupos de classificação das palavras reservadas:
 - Controle de pacotes: **import; package;**
 - Modificadores de acesso: **public; private; protected;**
-- Primitivos: **boolean; byte; char; double; float; int; long; short; void;
+- Primitivos: **boolean; byte; char; double; float; int; long; short; void;**
 - Modificadores de classes, variáveis ou métodos: **abstract; class; extends; final; implements; interface; native; new; static; strictfp; synchronized; transient; volatile;**
 - Controle de fluxo dentro de um bloco de código: **break; case; continue; default; do; else; for; if; instanceof; return; switch; while;**
 - Tratamento de erros: **assert; catch; finally; throw; throws; try;**
