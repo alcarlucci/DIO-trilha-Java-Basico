@@ -1,18 +1,29 @@
-## Getting Started
+# Operadores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações. São classificados em:
 
-## Folder Structure
+ - **Atribuição**: representado pelo símbolo de igualdade `=`
+ - **Aritméticos**: `+` (adição), `-` (subtração), `*` (multiplicação) e `/` (divisão)
+ - **Unários**:
+   - `+` **valor positivo**: números são positivos sem esse operador explicitamente;
+   - `-` **valor negativo**: negativa um número ou expressão aritmética;
+   - `++` **incremento de valor**: incrementa o valor em 1 unidade;
+   - `--` **decremento de valor**: decrementa o valor em 1 unidade;
+   - `!` **lógico de negação**: nega o valor de uma expressão booleana;
+ - **Ternário**: `<Expressão Condicional> ? <Caso seja true> : <Caso seja false>`
+```
+String resultado = (a==b) ? "verdadeiro" : "false";
+```
+ - **Relacionais**: avaliam a relação entre duas variáveis ou expressões
+   - `==` verificar se uma variável é IGUAL A outra.
+   - `!=` verificar se uma variável é DIFERENTE da outra.
+   - `>` verificar se uma variável é MAIOR QUE a outra.
+   - `>=` verificar se uma variável é MAIOR OU IGUAL a outra.
+   - `<` verificar se uma variável é MENOR QUE outra.
+   - `<=` verificar se uma variável é MENOR OU IGUAL a outra.
+ - **Lógicos**:
+   - `&&` Operador Lógico "E";
+   - `||` Operador Lógico "OU".
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+##
+**André Carlucci**
