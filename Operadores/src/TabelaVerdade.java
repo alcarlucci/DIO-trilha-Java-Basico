@@ -12,7 +12,6 @@ public class TabelaVerdade {
         System.out.println("F  &&  V  " + (bFalse && bTrue));
         System.out.println("F  &&  F  " + (bFalse && bFalse) + "\n");
 
-
         //Disjunção: operador || - OR
         System.out.println("Operador || (OR)");
         System.out.println("V  ||  V  " + (bTrue || bTrue));

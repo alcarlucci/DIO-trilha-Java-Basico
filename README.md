@@ -213,6 +213,15 @@ Grupos de classificação das palavras reservadas:
 - Palavras reservadas não utilizadas: **const; goto;**
 - Literais reservados: **null; true; false**.
 
+### Estruturas de Controle de Fluxo
+
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+Tipos:
+- **Decisão**: `if` ; `if-else` ; `if-else-if` ; `switch` ; e operador ternário
+- **Repetição**: `for` ; `while` ; `do while`
+- **Interrupção**: `break` ; `continue` ; `return`
+
 ##
 Bons estudos!!!
 
