@@ -5,8 +5,13 @@ São estruturas que tem a capacidade de direcionar o fluxo de execução do cód
 Tipos:
 
 - **Decisão**: `if` ; `if-else` ; `if-else-if` ; `switch` ; e operador ternário
-- **Repetição**: `for` ; `while` ; `do while`
-- **Interrupção**: `break` ; `continue` ; `return`
+- **Repetição**:
+  - `for`: repetição contada
+  - `while`: repetição com teste no início
+  - `do while`: repetição com teste no final
+- **Interrupção**:
+  - `break`: utilizado para terminar de forma abrupta uma repetição
+  - `continue`: os comandos na repetição abaixo do *continue* são ignorados e o fluxo do programa segue para a próxima *iteração*
 
 ##
 

@@ -83,10 +83,14 @@ public class Decisao {
         }
 
         //if-else com apenas um comando em cada (sem utilização de {})
-        if ((10 + 15) < 20)
-            System.out.println("verdade");
+        int a = 10;
+        int b = 15;
+        int x = 20;
+
+        if ((a + b) < x)
+            System.out.println(a + " + " + b + " < " + x + " : verdade");
         else
-            System.out.println("mentira");
+            System.out.println(a + " + " + b + " < " + x + " : mentira");
 
     }    
 
