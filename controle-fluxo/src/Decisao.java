@@ -82,6 +82,12 @@ public class Decisao {
                 break;
         }
 
+        //if-else com apenas um comando em cada (sem utilização de {})
+        if ((10 + 15) < 20)
+            System.out.println("verdade");
+        else
+            System.out.println("mentira");
+
     }    
 
 }
