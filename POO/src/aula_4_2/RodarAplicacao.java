@@ -9,10 +9,12 @@ class RodarAplicacao {
 
         // Funcionario funcionario = new Funcionario();
 
+        // upcast
         // Funcionario gerente = new Gerente();
         // Funcionario vendedor = new Vendedor();
         // Funcionario faxineiro = new Faxineiro();
 
+        // downcast (necessita um cast explicito)
         // Vendedor gerenteVend = (Vendedor) new Funcionario();
 
     }
